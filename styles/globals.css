@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .quantum-glow {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .quantum-glow:hover {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.2);
+  }
+}

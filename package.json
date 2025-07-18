@@ -1,0 +1,29 @@
+{
+  "name": "quantum-consciousness-helper",
+  "version": "1.0.0",
+  "description": "AI clone with piano music navigation philosophy",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  },
+  "keywords": [
+    "ai",
+    "consciousness",
+    "helper",
+    "piano-music-navigation"
+  ],
+  "author": "KlementMultiverse",
+  "license": "MIT"
+}
